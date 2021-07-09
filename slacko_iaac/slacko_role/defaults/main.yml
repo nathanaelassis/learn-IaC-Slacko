@@ -2,5 +2,5 @@
 # defaults file for slacko_role
 
 repo_git: https://github.com/LeonardoDG2084/iaac_slacko-api
-service_slacko: "/etc/systemd/system/slacko-api.service"
+service_slacko: "/etc/systemd/system"
 path_api: "/opt/slacko-api/"
