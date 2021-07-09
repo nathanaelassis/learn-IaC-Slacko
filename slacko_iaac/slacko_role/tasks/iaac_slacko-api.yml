@@ -4,7 +4,7 @@
 - name: repositorio clone git
   git:
     repo: "{{ repo_git }}"
-    dest: /opt/iaac_slacko
+    dest: /opt
 
 - name: instalando mongoDB
   apt:
@@ -16,7 +16,7 @@
 
 - name: instalando python requirements
   pip:
-    requirements: /opt/iaac_slacko/requeriments.txt
+    requirements: /opt/requeriments.txt
 
 - name: criando diretorio slacko-api
   file: 
@@ -30,7 +30,7 @@
     mode: '0755'
     remote_src: yes
   with_items:
-    - /opt/iaac_slacko/main.py  
+    - /opt/main.py  
 
 - name: 'copiando arquivo conf para o diretorio'
   template:
