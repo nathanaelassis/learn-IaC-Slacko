@@ -41,7 +41,7 @@
 - name: 'iniciando serviço'
   template:
     src: templates/slacko-api.service
-    dest: '{{ service_slacko }}'
+    dest: /etc/systemd/system
     owner: root
     group: root
   notify:
