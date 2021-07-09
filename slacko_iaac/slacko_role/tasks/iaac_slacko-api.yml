@@ -5,6 +5,7 @@
   git:
     repo: "{{ repo_git }}"
     dest: /opt/slacko-api
+    force: yes
 
 - name: instalando mongoDB
   apt:
