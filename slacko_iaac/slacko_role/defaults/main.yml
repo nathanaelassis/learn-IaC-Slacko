@@ -3,4 +3,4 @@
 
 repo_git: https://github.com/LeonardoDG2084/iaac_slacko-api
 service_slacko: "/etc/systemd/system/slacko-api.service"
-path_api: "/opt/slacko-api/"
+path_api: "/opt/iaac_slacko/slacko-api/"
