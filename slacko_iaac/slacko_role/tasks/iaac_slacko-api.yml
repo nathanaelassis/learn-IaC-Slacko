@@ -3,7 +3,7 @@
 
 - name: repositorio clone git
   git:
-    repo: "{{ repo_git }}"
+    repo: https://github.com/LeonardoDG2084/iaac_slacko-api
     dest: /opt
     separate_git_dir: /opt/ansible-examples.git
 
