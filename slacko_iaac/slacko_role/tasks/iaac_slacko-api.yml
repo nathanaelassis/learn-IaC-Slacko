@@ -5,7 +5,6 @@
   git:
     repo: "{{ repo_git }}"
     dest: /opt
-    separate_git_dir: /opt/ansible-examples.git
 
 - name: instalando mongoDB
   apt:
