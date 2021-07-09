@@ -4,7 +4,8 @@
 - name: repositorio clone git
   git:
     repo: "{{ repo_git }}"
-    dest: /opt
+    dest: /opt/
+  force: yes
 
 - name: instalando mongoDB
   apt:
