@@ -5,7 +5,7 @@
   git:
     repo: "{{ repo_git }}"
     dest: /opt/
-  force: yes
+    force: yes
 
 - name: instalando mongoDB
   apt:
